@@ -1,0 +1,1376 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 侧边栏 */
+.youbianlan{
+    height: 100%;
+    width: 35px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 10;
+}
+.celan1{
+    width: 35px;
+    height: 35px;
+    margin-top: 120px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.celan1 i{
+    color: #f2f2f2;
+    font-size: 26px;
+    
+}
+.celan2{
+    width: 35px;
+    height: 100px;
+    margin: 8px 0;
+    color: #f2f2f2;
+    padding: 10px 6px;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.celan2 i{
+    color: red;
+    font-size: 20px;
+}
+
+.celan3{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin: 8px 0;
+    line-height: 35px;
+}
+.celan3 i{
+    color: #f2f2f2;
+    font-size: 15x;
+}
+.celan5{
+    width: 35px;
+    height: 25px;
+    margin-top: 80px;
+    text-align: center;
+}
+.celan5 i{
+    color: #f2f2f2;
+    font-size: 15px; 
+}
+/* 左边栏 */
+.zuobian{
+    width: 35px;
+    height: 369px;
+    position: fixed;
+    left: 2px;
+    top: 180px;
+}
+.liu{
+    width: 36px;
+    height: 36px;
+    margin-top: 1px;
+    /* background-color: #7A45E5; */
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+}
+.liuhong{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #ff0036;
+    color: #fff;
+    font-size: 12px;
+}
+
+.liuhei{
+    line-height: 12px;
+    width: 24px;
+    height: 28px;
+    padding: 6px 6px;
+    background-color: rgba(0,0,0,.6);
+    font-size: 12px;
+    color: #fff;
+}
+.fanhui{
+    background-color: rgba(0,0,0,.3);
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+fanhui i{
+    font-size: 18px;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    float: left;
+}
+.fanh{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.celan1:hover{
+    background-color: #ff0036;
+    cursor:pointer;
+}
+.celan2:hover{
+    background-color: #ff0036;
+    cursor:pointer;
+}
+.celan2:hover i{
+    color: #fff;
+}
+.celan3:hover{
+    background-color: #FF0036;
+    cursor:pointer;
+}
+.celan5:hover{
+    background-color: #FF0036;
+    cursor:pointer;
+}
+.gr:hover{
+    background-color: #64C333;
+    cursor:pointer;
+}
+.bl:hover{
+    background-color: #000;
+    cursor:pointer;
+}
+.pi:hover{
+    background-color: pink;
+    cursor:pointer;
+}
+.ue:hover{
+    background-color: blue;
+    cursor:pointer;
+}
+.re:hover{
+    background-color: red;
+    cursor:pointer;
+}
+.cy:hover{
+    background-color: cyan;
+    cursor:pointer;
+}
+
+
+/* 顶部 */
+.deng{
+    width: 100%;
+    height: 32px;
+    background-color: #a9180a;
+}
+.deng1{
+    width: 1230px;
+    height: 32px;
+    margin: 0 auto;
+}
+.deng2{
+    width: 226px;
+    height: 32px;
+    display:inline-block;
+}
+.deng2 a{
+    line-height: 32px;
+    font-size: 12px;
+    display:inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.wo:hover{
+    background-color: #fff;
+    color: #FF0036;
+}
+.wo:hover i{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.wdtb{
+    width: 540px;
+    height: 32px;
+    float: right;
+}
+.wdgu1{
+    width: 74px;
+    height: 33px;
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 6px;
+}
+.wdgu1:hover{
+    background-color: #FFF;
+    color: #ff0036;
+    cursor:pointer;
+}
+.wdgu2{
+    width: 80px;
+    height: 33px;
+    float: left;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 6px;
+    color: #fff;
+}
+.wdgu2 i{
+    font-size: 12px;
+}
+.wdgu2:hover{
+    color: #ffe013;
+}
+.wdgu3{
+    width: 62px;
+    height: 33px;
+    float: left;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 6px;
+    color: #fff;
+}
+.wdgu3:hover{
+    background-color: #FFF;
+    color: #ff0036;
+    cursor:pointer;
+}
+.shixian{
+    /* margin-top: 10px; */
+    line-height: 32px;
+    color: #999;
+    float: left;
+}
+.wdgu4{
+    width: 62px;
+    height: 33px;
+    float: left;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 6px;
+    color: #fff;
+}
+.wdgu4 i{
+    font-size: 14px;
+}
+.wdgu4:hover{
+    color: #ffe013;
+}
+.wdgu5{
+    width: 40px;
+    height: 33px;
+    float: left;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 6px;
+    color: #fff;
+}
+.wdgu5:hover{
+    color: #ffe013;
+}
+.wdgu6{
+    width: 74px;
+    height: 33px;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 6px;
+    color: #fff;
+}
+.wdgu6:hover{
+    background-color: #FFF;
+    color: #ff0036;
+    cursor:pointer;
+}
+.wdgu7{
+    width: 90px;
+    height: 33px;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 6px;
+    color: #fff;
+}
+.wdgu7 .icon-list2{
+    font-size: 14px;
+}
+.wdgu7:hover{
+    background-color: #FFF;
+    color: #ff0036;
+    cursor:pointer;
+}
+
+
+/* 搜索 */
+.sousuo{
+    width: 100%;
+    height: 130px;
+    
+}
+.sousuolan{
+    width: 1230px;
+    height: 106px;
+    margin: 0 auto;
+    
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.sousuolan1{
+    width: 240px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    margin: 1px 0;
+}
+.sousuolan1 img{
+    width: 240px;
+}
+.sousuolan2{
+    width: 625px;
+    height: 106px;
+    padding-top: 36px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 300px;    
+}
+.sousuolan3{
+    height: 625px;
+    height: 40px;
+}
+input{ 
+    border:none;
+    outline:none;
+    width: 491px;
+    height: 36px;
+    border: 2px solid #FF0036;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    }
+input::-webkit-input-placeholder{
+    font-size: 16px;
+}
+.sousuolan4{
+    width: 120px;
+    height: 36px;
+    background-color: #FF0036;
+    display: inline-block;
+
+}
+.sousuolan4 p{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 35px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.sousuolanzi{
+    width: 625px;
+    height: 28px;
+    padding-top: 4px;
+    position: relative;
+    top: 0;
+    left: -12px;
+}
+.sousuozi1{
+    width: 67px;
+    height: 18px;
+    float: left;
+    padding: 0 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #999;
+    border-left: 1px solid #ccc;
+}
+.sousuozi2{
+    width: 67px;
+    height: 18px;
+    float: left;
+    padding: 0 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #999;
+}
+.sousuozi1 a{
+    color: #FF0036;
+}
+/* 搜索完 */
+
+
+.shangpin{
+    width: 1230px;
+    height: 35px;
+    margin: 0 auto;
+    padding-left: 200px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.shangpintu{
+    width: 116px;
+    height: 35px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    float: left;
+}
+.shangpintu img{
+    width: 100px;
+}
+.shangpintu1{
+    /* width: 80px;
+    height: 30px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    float: left;
+    margin-top: 5px;
+}
+.shangpintu1:hover{
+    color: #FF0036;
+    cursor:pointer;
+}
+.shangpintu2{
+    width: 200px;
+    height: 36px;
+    display:inline-block;
+    position: relative;
+    top: 0px;
+    left: -992px;
+    background-color: #FF0036;
+}
+.shangpintu2 i{
+    font-size: 26px;
+    margin-left: 14px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    top: 6px;
+}
+.shangpintu3{
+    width: 64px;
+    height: 36px;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px;
+}
+
+
+
+/* 轮播图 */
+.lunbo{
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid#FF0036;
+}
+.lunbotu{
+    width: 1230px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.lunbodian{
+    width: 1230px;
+    height: 18px;
+    z-index: 5;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    text-align: center;
+}
+.dianbo{
+    background: #000;
+    width: 25px;
+    height: 5px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 5px;
+    cursor: pointer;
+    opacity: .3;
+}
+.lunbozi{
+    width: 200px;
+    height: 500px;
+    background-color: rgba(0,0,0,.55);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+.lunbozi1{
+    width: 200px;
+    height: 31.2px;
+}
+.lunbozi1 i{
+    font-size: 18px;
+    line-height: 31.2px;
+    margin-left: 14px;
+    margin-right: 4px;
+    color: #fff;
+}
+.lunbozi1:hover{
+    background-color: #FFF;
+}
+.sh:hover a{
+    color: #e54077;
+}
+.sh:hover i{
+    color: #e54077;
+}
+.sl:hover a{
+    color: #427def;
+}
+.sl:hover i{
+    color: #427def;
+}
+.sf:hover a{
+    color: #e54077;
+}
+.sf:hover i{
+    color: #e54077;
+}
+.hh:hover a{
+    color: #f7a831;
+}
+.hh:hover i{
+    color: #f7a831;
+}
+
+
+.lunbozi a{
+    color: #fff;
+    font-size: 14px;
+}
+.lunbotupian{
+    width: 1230px;
+    height: 500px;
+    position: relative;
+    top: -500px;
+    left: 0;
+}
+.lunbotupian img{
+    position: absolute;
+}
+
+
+
+
+
+/* 推荐 */
+.hui{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.tuijian{
+    width: 1230px;
+    height: 378px;
+    padding-top:24px;
+    margin: 0 auto;
+}
+.tuijianzi{
+    width: 234px;
+    height: 55px;
+    background-color: #fff;
+    float: left;
+}
+.tuijianzi1{
+    width: 485px;
+    height: 55px;
+    background-color: #fff;
+    float: left;
+    margin-left: 13px;
+}
+.tuijianzi2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 54px;
+    display:inline-block;
+    margin-left: 10px;
+}
+.tuijianzi3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    display:inline-block;
+    margin-left: 10px;
+}
+.tuijianzi i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 22px;
+    font-size: 16px;
+    color: #666;
+}
+.tuijianzi1 i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 22px;
+    font-size: 16px;
+    color: #666;
+}
+.tuijianzi4{
+    float: right;
+    /* display:inline-block; */
+    margin-top: 20px;
+    margin-right: 8px;
+    color: #666;
+}
+
+
+
+.tuijiantu:hover{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+.tuijiantu1:hover{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+
+.tuijiantu{
+    width: 234px;
+    height: 316px;
+    float: left;
+}
+.tuijiantu1{
+    width: 485px;
+    height: 316px;
+    float: left;
+    margin-left: 13px;
+}
+.tuijiantu img{
+    width: 234px;
+}
+.tuijiantu1 img{
+    width: 485px;
+}
+
+
+
+
+
+
+/* 上小图 */
+.xiaotu{
+    width: 1230px;
+    height: 327px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.xiaotupian:hover .zhe{
+    display: block;
+}
+.xiaotupian2:hover{
+    background-color: #ff0036;
+    color: #fff;
+}
+.zhe{
+    width: 122px;
+    height: 108px;
+    background-color:#000;
+    opacity:0.8;
+    line-height: 90px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px; 
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.jinru{
+    width: 63px;
+    font-size: 12px;
+    text-align: center;
+    height: 18px;
+    background-color: #FF0036;
+    border-radius: 9px;
+    color: #FFF;
+    line-height: 16px;
+    position: absolute;
+    left: 28px;
+    bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xiaotupian{
+    width: 122px;
+    height: 108px;
+    background-color: #fff;
+    float: left;
+    margin-top: 1px;
+    margin-left: 1px;
+    position: relative;
+}
+.xiaotupian img{
+    width: 122px;
+    line-height: 108px;
+    margin: 24px 0;
+    background-color: #fff;
+    
+}
+.xiaotupian1{
+    width: 122px;
+    height: 136px;
+    line-height: 136px;
+    text-align: center;
+    display:inline-block;
+    font-size: 14px;
+    color: #999;
+   
+    margin-top: 1px;
+    margin-left: 1px;
+    position: relative;
+    /* padding-bottom: 20px;
+    box-sizing: border-box; */
+}
+.xiaotupian2{
+    width: 122px;
+    height: 108px;
+    background-color: #fff;
+}
+.xiaotupian1 i{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 40px;
+    top: -24px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/* 超市 */
+.chaoshi{
+    width: 1230px;
+    height: 665px;
+    margin: 30px auto 0;
+}
+.chaoshitou{
+    width: 214px;
+    height: 25px;
+    display:inline-block;
+    margin-top: 2px;
+}
+.chaoshitou img{
+    width: 214px;
+    
+}
+.chaoshitou1{
+    width: 800px;
+    height: 31px;
+    float: right;
+}
+.chaoshitou2{
+    line-height: 20px;
+    margin: 5px 10px;
+    font-size: 14px;
+    border: none;
+    float: right;
+    text-align: center;
+}
+
+
+
+
+
+
+.chaoshitou2:hover{
+    border-bottom: 1px solid #000;
+    cursor:pointer;
+}
+.chaoshizuo:hover{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+.chaoshiyou2:hover .chaoshitu{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+.chaoshiyou2:hover{
+    border-color:#ff0036;
+    cursor:pointer;
+}
+.chaoshiyou1:hover .jinritupian{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.chaoshizuo{
+    width: 235px;
+    height: 618px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+}
+.heikuai{
+    width: 218px;
+    height: 64px;
+    position: absolute;
+    top: 450px;
+}
+.heikuaitu{
+    width: 70px;
+    height: 65px;
+    background: rgba(0,0,0,.9);
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    display: inline-block;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    /* float: left; */
+}
+.heikuaizi{
+    background: rgba(0,0,0,0.6);
+    width: 128px;
+    height: 64px;
+    display:inline-block;
+    /* float: left; */
+}
+.heikuaizi1{
+    display: block;
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.heikuaizi2{
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+}
+.xiangyou{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.xiangyou i{
+    font-size: 32px;
+    color: #FFF;
+    
+}
+.chaoshizuo img{
+    width: 235px;
+}
+.chaoshiyou{
+    width: 995px;
+    height: 618px;
+    float: right;
+    /* display: inline-block; */
+    /* background-color: #FF0036; */
+    margin-top: 10px;
+}
+.chaoshiyou1{
+    width: 484px;
+    height: 301px;
+    margin-left: 13px;
+    /* display: inline-block; */
+    background-color: #fff;
+    float: left;
+}
+.jinri{
+    width: 462px;
+    height: 282px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+    position: absolute;
+}
+.jinrishang{
+    width: 462px;
+    height: 57px;
+    background-color: azure;
+}
+.jinrishang1{
+    width: 231px;
+    height: 57px;
+    background-color: #999;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.lvse{
+    background-color: #00B262;
+    color: #fff;
+    
+}
+.jinrishang2{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.jinritupian{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.jinritupian img{
+    width: 200px;
+}
+.jinriwenzi{
+    width: 291px;
+    height: 87px;
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    top: 75px;
+}
+.jinriwenzi1{
+    width: 265px;
+    height: 36px;
+    /* background-color: #FF0036; */
+    margin-left: 26px;
+}
+.jinriwenzi1 i{
+    font-size: 25px;
+    color: #00B262; 
+}
+.jinriwenzi2{
+    color: #00B262;
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.jinriwenzi3{
+    /* margin-left: 26px; */
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.chaoshiyou2{
+    width: 235px;
+    height: 302px;
+    margin-left: 13px;
+    margin-bottom: 17px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.chaoshitu{
+    width: 185px;
+    height: 185px;
+    /* background-color: black; */
+    margin: 15px 0 0 25.5px;
+}
+.chaoshizi{
+    width: 135px;
+    height: 40px;
+    margin: 8px 50px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.chaoshizi2{
+    width: 234px;
+    height: 18px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+    text-align: center;
+}
+.chaoshitu img{
+    width: 185px;
+}
+
+
+/* 天猫国际 */
+.guoji1{
+    width: 235px;
+    height: 301px;
+    position: absolute;
+    /* background-color: blueviolet; */
+}
+.guoji2{
+    width: 235px;
+    height: 301px;
+    position: relative;
+    top: 317px;
+    left: 0;
+    /* background-color: blueviolet; */
+}
+.guoji1 img,.guoji2 img{
+    width: 235px;
+}
+.heikuai1{
+    width: 218px;
+    height: 64px;
+    position: absolute;
+    top: 170px;
+}
+.tianmaoguoji1{
+    width: 210px;
+    height: 24px;
+    margin: 20px 0 0 25px;
+    /* background-color: #FF0036; */
+    font-size: 18px;
+}
+.tianmaoguoji2{
+    width: 210px;
+    height: 18px;
+    margin: 4px 0 0 25px;
+    /* background-color: #FF0036; */
+    font-size: 14px;
+    color: #7A45E5;
+}
+.tianmaoguoji3{
+    width: 170px;
+    height: 170px;
+    margin: 20px 33px;
+}
+.tianmaoguoji3 img{
+    width: 170px;
+}
+.chaoshiyou2:hover .tianmaoguoji3{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+
+
+
+
+
+
+
+
+.meili{
+    width: 1230px;
+    height: 90px;
+    /* margin-top: 10px; */
+    margin: 20px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+.meili img{
+    display: block;
+    width: 1620px;
+    height: 90px;
+    margin-left: -165px;
+}
+.meilirsheng{
+    width: 1230px;
+    height: 665px;
+    margin: 20px auto 0;
+    /* background-color: aqua; */
+}
+.meilirsheng1{
+    display: inline-block;
+    background-color: #333;
+    width: 5px;
+    height: 18px;
+    vertical-align: middle;
+}
+.meilirsheng2{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #000;
+    height: 28px;
+    width: 1100px;
+}
+.meilirsheng3{
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    margin-left: 10px;
+    line-height: 24px;
+    height: 18px;
+}
+/* 猜你喜欢 */
+.cai{
+    width: 1230px;
+    height: 43px;
+    margin:44px auto 0;
+    /* padding-bottom: 20px; */
+    position: relative;
+}
+.cai1{
+    font-size: 18px;
+    color: #666;
+    position: absolute;
+    top: 0;
+    left: 560px;
+}
+.cai1 i{
+    font-size: 20px;
+    color: #ff0036;
+   
+}
+.huaxian{
+    width: 30px;
+    height: 11px;
+    border-bottom: 1px solid #979797;
+    position: absolute;
+    top: 0;
+    left: 510px;
+}
+.huaxian1{
+    width: 30px;
+    height: 11px;
+    border-bottom: 1px solid #979797;
+    position: absolute;
+    top: 0;
+    right: 530px;
+}
+.shangpinye{
+    width: 1230px;
+    /* height: 1000px; */
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.caishang:nth-child(5n){
+    margin-right: 0px;
+}
+/* .caishang::after{
+    content: "";
+    display:block;
+    clear:both;
+} */
+
+
+
+
+
+.caishang:hover{
+    border-color:#ff0036;
+    cursor:pointer;
+}
+.caishang:hover .caishangtu{
+    filter:alpha(apacity=60);
+    -moz-opacity:0.6;
+    opacity:0.8;
+}
+
+
+
+
+
+
+
+
+
+
+.caishang{
+    width: 235px;
+    height: 326px;
+    background-color:#fff;
+    margin-right: 12px;
+    margin-bottom: 14px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+.caishangtu{
+    width: 185px;
+    height: 185px;
+    margin: 28px 25px 0 25px;
+}
+.caishangtu img{
+    width: 185px;
+}
+.caishangzi{
+    width: 135px;
+    height: 40px;
+    margin: 22px auto 8px;
+    color: #666;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+}
+.caishangzi1{
+    width: 211px;
+    height: 33px;
+    margin: 15px auto;
+    color: #ff0036;
+    font-size: 18px;
+    text-align: center;
+}
+.lougou{
+    width: 80px;
+    height: 45px;
+    float: left;
+    margin-left: 570px;
+    margin-bottom: 10px;
+}
+.lougou img{
+    width: 80px;
+}
+/* 猜你喜欢完 */
+
+.baidizi{
+    width: 100%;
+    /* height: 664px; */
+    background-color: #FFF;
+}
+.qiri{
+    width: 1190px;
+    height: 100px;
+    padding: 25px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #D1D7DC;
+}
+.qiri img{
+    width: 1190px;
+}
+.qirizi{
+    width: 1190px;
+    padding-top: 22px;
+    height: 190px;
+    margin: auto;
+    /* background-color: #FF0036; */
+    position: relative;
+}
+.qirizi1{
+    width: 186px;
+    padding-left: 52px;
+    /* background-color: #00B262; */
+    /* height: 90px; */
+    float: left;
+    text-align: left;
+}
+.qirizi2{
+    width: 186px;
+    height: 30px;
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.qirizi1 a{
+height: 20px;
+line-height: 20px;
+color: #8b8b8b;
+width: 100px;
+display: block;
+font-size: 14px;
+}
+.zhifufangshi{
+    width: 238px;
+}
+.er{
+    width: 105px;
+    height: 105px; 
+}
+.er img{
+    width: 105px;
+}
+.heimao{
+    position: absolute;
+    bottom: -4px;
+    left: 50px;
+}
+.xiahei{
+    width: 100%;
+    height: 230px;
+    background: #000;
+    border-top: 2px solid #FF0036;
+}
+.xiahei1{
+    width: 1190px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 5px 0;
+    color: #fff;
+    line-height: 25px;
+}
+.xiahei1 a{
+    margin-right: 3px;
+    color: #fff;
+    font-size: 13px;
+}
+.xiahei2{
+    width: 1190px;
+    height: 150px;
+    margin: 0 auto;
+}
+.xiahei2 a{
+    color: #a4a4a4;
+    font-size: 12px;
+    margin-right: 65px;
+}
+.xiahei2 a img{
+    line-height: 60px;
+    width: 18px;
+}
+.xiahei3{
+    color: #686868;
+    font-size: 12px;
+}
+.xaihei4{
+    height: 30px;
+    padding: 5px 0;
+    padding-top: 10px;
+}
+.xaihei5{
+    margin-right: 10px;
+    float: left;
+}
+.xiahei5 img{
+    width: 73px;
+}
+.xiahei6 img{
+    width: 80px;
+    float: left;
+}
